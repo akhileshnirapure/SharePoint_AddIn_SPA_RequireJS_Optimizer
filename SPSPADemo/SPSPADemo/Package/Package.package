@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="648ec20e-0471-45e2-b77b-a7b3f754b0b1" 
+        solutionId="648ec20e-0471-45e2-b77b-a7b3f754b0b1" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SPSPADemo"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="a2bdd5f4-459a-4ad5-bc12-4e5588a80a9d" />
+  </features>
+</package>
