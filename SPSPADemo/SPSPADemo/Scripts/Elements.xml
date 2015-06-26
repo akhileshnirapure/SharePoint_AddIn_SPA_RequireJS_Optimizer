@@ -3,5 +3,7 @@
   <Module Name="Scripts">
     <File Path="Scripts\debug\app.js" Url="Scripts/debug/app.js" ReplaceContent="TRUE" />
     <File Path="Scripts\require.js" Url="Scripts/require.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\app.js" Url="Scripts/release/app.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\release\app.js.map" Url="Scripts/release/app.js.map" ReplaceContent="TRUE" />
   </Module>
 </Elements>

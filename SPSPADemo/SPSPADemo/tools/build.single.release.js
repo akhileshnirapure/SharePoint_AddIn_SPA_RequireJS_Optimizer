@@ -5,8 +5,16 @@
     //  defines all the shim configuration
     mainConfigFile: '../js/app.config.js',
 
-    //  The boostraper module which loads up the SPA, its relative  
+    deps: ['sp-runtime', 'sp', 'jquery'],
+
+    //  The boostraper module which loads up the SPA 
     name: 'app/start',
+    include: ['requirelib', '../app.config.js'],
+
+    paths: {
+        'sp': "empty:",
+        'sp-runtime': "empty:"
+    },
 
     //  the release output directory
     out: '../Scripts/release/app.js',

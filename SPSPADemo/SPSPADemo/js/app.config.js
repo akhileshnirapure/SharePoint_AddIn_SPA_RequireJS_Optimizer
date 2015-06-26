@@ -8,12 +8,17 @@
     paths: {
         'jquery': 'jquery-2.1.4.min', // relative to basepath
         'jquery-private': 'jquery-private',
+        'requirelib':'require',
+
         app: '../app',
-        'sp-runtime': '/_layouts/15/sp.runtime.js',
-        'sp': '/_layouts/15/sp.js'
+
+        //  sharepoint resources
+        'sp-runtime': '/_layouts/15/sp.runtime',
+        'sp': '/_layouts/15/sp'
     },
 
-    shim:{
+    shim: {
+        'app/start' : ['sp'],
         'sp' : ['sp-runtime']
     },
 
@@ -25,6 +30,8 @@
         "jquery-private": { 'jquery': 'jquery' }
     }
 });
+
+
 
 require(['app/start'], function (p_start) {
     debugger;

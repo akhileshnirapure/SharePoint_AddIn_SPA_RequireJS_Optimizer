@@ -54,6 +54,7 @@
     <Content Include="js\vendors\jquery-private.js" />
     <Content Include="js\vendors\require.js" />
     <Content Include="Scripts\debug\app.js" />
+    <Content Include="Scripts\release\app.js" />
     <Content Include="Scripts\require.js" />
     <Content Include="tools\build.options.txt" />
     <Content Include="tools\build.single.debug.js" />
@@ -65,6 +66,7 @@
     </None>
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Scripts\release\app.js.map" />
     <None Include="SharePointProjectItem.spdata">
       <SharePointProjectItemId>{abf74e91-4318-44bb-8aec-94b117aee7c3}</SharePointProjectItemId>
     </None>

@@ -4,5 +4,7 @@
     <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
     <ProjectItemFile Source="debug\app.js" Target="Scripts\debug\" Type="ElementFile" />
     <ProjectItemFile Source="require.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="release\app.js" Target="Scripts\release\" Type="ElementFile" />
+    <ProjectItemFile Source="release\app.js.map" Target="Scripts\release\" Type="ElementFile" />
   </Files>
 </ProjectItem>

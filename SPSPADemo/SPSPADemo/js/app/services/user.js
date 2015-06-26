@@ -31,6 +31,9 @@
             Current: getCurrentUser
         };
     };
+
+    //  Exporting user Module
+    return userModule;
 };
 
-define(['jquery','app/services/logger'],userService);
+define(['jquery','app/services/logger','sp'],userService);
